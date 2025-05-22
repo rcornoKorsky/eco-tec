@@ -18,7 +18,12 @@
 
     const phone = '527713631740';
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    let url = isMobile ?  url = `whatsapp://send?phone=${phone}&text=${text}` :  url = `https://web.whatsapp.com/send?phone=${phone}&text=${text}`;
+    let url
+    if(isMobile){
+      url = `whatsapp://send?phone=${phone}&text=${text}` 
+    }else{
+      url = `https://web.whatsapp.com/send?phone=${phone}&text=${text}`;
+    }
     window.open(url, '_blank');
   })
 }())

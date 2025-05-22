@@ -11,16 +11,15 @@
     }
 
     const text =
-      `*Hola, soy *%0A` + `${encodeURIComponent(nameEl)}%0A` +
-      `*Mi correo es: * ${encodeURIComponent(emailEl)}%0A` +
-      `** ${encodeURIComponent(msgEl)}`;
-
+      `Hola, soy ${encodeURIComponent(nameEl)}%0A` +
+      `Mi correo es: ${encodeURIComponent(emailEl)}%0A` +
+      `${encodeURIComponent(msgEl)}`;
 
     const phone = '527713631740';
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     let url
     if(isMobile){
-      url = `whatsapp://send?phone=${phone}&text=${text}` 
+      url = `whatsapp://send?phone=${phone}&text=${text}`;
     }else{
       url = `https://web.whatsapp.com/send?phone=${phone}&text=${text}`;
     }

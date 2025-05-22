@@ -7139,6 +7139,11 @@ textarea.textarea-lg {
 	font-size: 30px;
 }
 
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .thumbnail-mary-figure {
 	display: block;
 	width: 420px;

@@ -1,5 +1,7 @@
 "use strict";
 (function () {
+  var output = $("#" + form.attr("data-form-output"));
+
   document.getElementById("sendWhatsapp").addEventListener('click', () => {
     const nameEl    = document.getElementById('contact-your-name-2').value.trim();
     const emailEl   = document.getElementById('contact-email-2').value.trim();
@@ -24,5 +26,6 @@
       url = `https://web.whatsapp.com/send?phone=${phone}&text=${text}`;
     }
     window.open(url, '_blank');
+    output.removeClass("active");
   })
 }())

@@ -1,9 +1,9 @@
 "use strict";
 (function () {
   document.getElementById("sendWhatsapp").addEventListener('click', () => {
-    const nameEl    = document.getElementById('name').value.trim();
-    const emailEl   = document.getElementById('email').value.trim();
-    const msgEl     = document.getElementById('message').value.trim();
+    const nameEl    = document.getElementById('contact-your-name-2').value.trim();
+    const emailEl   = document.getElementById('contact-email-2').value.trim();
+    const msgEl     = document.getElementById('contact-message-2').value.trim();
 
     if (!nameEl || !emailEl || !msgEl) {
       alert('Por favor, completa todos los campos antes de enviar.');

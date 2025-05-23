@@ -8814,8 +8814,8 @@ textarea.textarea-lg {
 
 .footer-corporate-bottom-panel {
 	padding: 30px 0;
-	background: #11263a;
-	color: rgba(255, 255, 255, 0.3);
+	background: #9cc42e;
+	color: rgba(255, 255, 255, 1);
 }
 
 .footer-minimal {
@@ -17082,7 +17082,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: #162e44;
+	background: #94C424;
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-nav-wrap {
@@ -24697,5 +24697,5 @@ img.mfp-img {
 }
 
 .ecotec-logo{
-	
+
 }

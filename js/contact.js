@@ -16,7 +16,7 @@
       `Mi correo es: ${encodeURIComponent(emailEl)}%0A` +
       `${encodeURIComponent(msgEl)}`;
 
-    const phone = '527713631740';
+    const phone = '529862587480';
     const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     let url
     if(isMobile){
